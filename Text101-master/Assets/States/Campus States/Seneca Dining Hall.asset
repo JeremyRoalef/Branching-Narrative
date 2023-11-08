@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e68259cc4ec74d8df4f807e436ab2, type: 3}
+  m_Name: Seneca Dining Hall
+  m_EditorClassIdentifier: 
+  strStoryText: 'You come across the remains of Seneca Dining Hall. There may be
+    supplies or foor inside.
+
+
+    What do you choose?
+
+    1. Enter Seneca Dining
+    Hall
+
+    2. Don''t enter the Dining Hall'
+  nextState:
+  - {fileID: 11400000, guid: 2c6c358bf0fae714dbaaad12fc84e7f7, type: 2}
+  - {fileID: 11400000, guid: d257f962f8e4d5d4da9f10c5901c4cbc, type: 2}

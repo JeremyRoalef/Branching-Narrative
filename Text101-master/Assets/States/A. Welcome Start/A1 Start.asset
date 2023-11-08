@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e68259cc4ec74d8df4f807e436ab2, type: 3}
+  m_Name: A1 Start
+  m_EditorClassIdentifier: 
+  strStoryText: 'Survuving a day in a post-apocalyptic Morrisville.
+
+
+    In order
+    to survive in Morrisville, you need to either head into Morrisville cmapus or
+    into the town
+
+
+    Which do you choose?
+
+    1. Head to campus
+
+    2. Head
+    to town'
+  nextState:
+  - {fileID: 11400000, guid: 2c0160ba149d4e7439ffecc09ee60dc8, type: 2}
+  - {fileID: 11400000, guid: 435abd20db5176344bb6ee7534cf8c41, type: 2}
